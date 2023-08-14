@@ -7,11 +7,13 @@ body {
     margin: 0;
     height: 100vh;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 main {
     width: 1024px;
-    height: 100%;
+    height: fit-content;
     padding: 2rem;
     margin: auto;
     display: flex;
@@ -88,4 +90,18 @@ main > * {
 
 .bg-aqua {
     background-color: #00ffff;
+}
+
+.res-dir {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    .res-dir {
+        flex-direction: column;
+    }
+
+    .res-dis {
+        display: none;
+    }
 }

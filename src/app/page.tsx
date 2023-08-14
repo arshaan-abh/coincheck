@@ -13,11 +13,11 @@ export default function Home() {
                     <div className="ml-2">ETH</div>
                     <div className="opacity-50">•</div>
                     <div className="">CAD</div>
-                    <ArrowDropDownRoundedIcon className="rounded-full bg-white text-black"/>
-                    <TrendingUpRoundedIcon className="text-aqua"/>
-                    <div className="text-aqua">1.44%</div>
+                    <ArrowDropDownRoundedIcon className="rounded-full bg-white text-black res-dis"/>
+                    <TrendingUpRoundedIcon className="text-aqua res-dis"/>
+                    <div className="text-aqua res-dis">1.44%</div>
                 </div>
-                <div className="flex flex-row gap-4">
+                <div className="flex res-dir gap-4">
                     <div className="card w-full flex flex-col gap-2">
                         <div className="flex flex-row justify-between">
                             <div className="w-min opacity-50">Price CAD</div>
@@ -66,7 +66,7 @@ export default function Home() {
                             <div>20.4677553</div>
                         </div>
                     </div>
-                    <div className="gap-2 w-full flex flex-col">
+                    <div className="gap-2 w-full flex flex-col res-dis">
                         <div className="card flex gap-2">
                             <div className="grow bg-aqua rounded p-2 text-center">
                                 <div className="text-black">BUY</div>
