@@ -28,7 +28,7 @@ export default function Home() {
             }
         }
 
-        fetchData().then(r => {
+        fetchData().then(() => {
         })
     }, [])
 
